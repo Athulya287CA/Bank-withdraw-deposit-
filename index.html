@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <link rel="stylesheet" href="./style.css">
+  </head>
+<body>
+    <nav class="navbar ">
+        <div class="container-fluid">
+          <a class="navbar-brand">My Bank</a>
+          
+          <div class="sidenav">
+            <button id="registerpage"
+            onclick="registerpage()"
+            class="btn btn-outline-success" >Register</button>
+
+            <button id="loginpage" onclick="loginpage()" class="btn btn-outline-success" >Login</button>
+          </div>
+
+        </div>
+      </nav>
+
+      <div class="section1 container">
+        
+
+          <div class="content ">
+            <h2>Online Bank</h2>
+            <p class="tagline"><i>Secure Banking at Your Fingertips</i></p>
+            <p>Online banking, also known as internet banking, virtual banking, web banking or home banking, is a system that enables customers of a bank or other financial institution to conduct a range of financial transactions through the financial institution's website or mobile app. Since the early 2000s this has become the most common way that customers access their bank accounts.
+
+            </p>
+            <button type="button" class="btn btn-outline-success">Get Started</button>
+          </div>
+          <div class="image">
+            <img src="https://www.pngplay.com/wp-content/uploads/7/Online-Banking-Internet-Transparent-File.png" alt="">
+          </div>
+        </div>
+
+
+        <!-- section 2 -->
+         <h2 class="services">Services</h2>
+         <div class="section2">
+          <!-- <h2> Services</h2> -->
+          <div class="col">
+            <h4>Personal Banking</h4>
+            <p>Tailored solutions for managing your day-to-day finances</p>
+          </div>
+          <div class="col">
+            <h4>Loans & Credit</h4>
+            <p>Flexible loans and credit options to help you achieve your dreams.</p>
+          </div>
+          <div class="col">
+            <h4>Savings & Investments</h4>
+            <p>Maximize your savings and grow your wealth with our smart investment plans.</p>
+          </div>
+          <div class="col">
+            <h4>Online Transfers</h4>
+            <p>Seamless and instant transfers to local and international accounts.</p>
+          </div>
+         </div>
+      </div>
+
+      <!-- footer-------------------------------------- -->
+
+      <section class="">
+        <!-- Footer -->
+        <footer class="text-center text-white" style="background-color:rgba(88, 173, 88, 0.916) ">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: CTA -->
+            <section class="">
+              <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">Register for free</span>
+                <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded" onclick="registerpage()">
+                  Sign up!
+                </button>
+              </p>
+            </section>
+            <!-- Section: CTA -->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(38, 100, 38, 0.806);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MyBank.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </section>
+</body>
+<script>
+  function loginpage(){
+    window.location= './login.html'
+  } 
+  
+  function registerpage(){
+    window.location='./register.html'
+  }
+</script>
+</html>

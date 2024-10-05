@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    
+    background-image: url(./images/3203863.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    /* background-color: rgb(197, 231, 207); */
+
+    /* align-items: center; */
+}
+nav{
+    background-color: rgba(145, 228, 145, 0.916);
+    position: sticky;
+    top:0;
+    align-items: center;
+    height:70px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.section{
+    display: flex;
+    margin-top: 100px;;
+    align-items: center;
+    justify-content: space-between;
+
+    justify-content: center;
+
+
+
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 40px 0px;
+    width:400px;
+    background-color: rgba(101, 199, 101, 0.877);
+    border-radius: 20px;
+    border: 2px ;
+    margin: 30px;
+}
+h2{
+   margin-bottom: 20px;
+}
+
+input{
+    width: 70%;
+    border-radius: 20px;
+    background-color: rgba(164, 253, 164, 0.877);
+    border: none;
+    margin-bottom: 20px;
+    padding:  15px 10px;
+}
+
+button{
+
+    background-color: rgb(92, 188, 92);
+    padding: 10px 20px;
+    border: none;
+    border:2px solid white;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(92, 188, 92);
+}
+
+a{
+    /* text-decoration: none; */
+    margin-top: 20px;
+    color: white;
+}
+
+.section2{
+    display: none;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 40px 0px;
+    width:400px;
+    background-color: rgba(101, 199, 101, 0.877);
+    border-radius: 20px;
+    border: 2px ;
+}
+
+@media (max-width:600px){
+
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1{
+        margin-left: 70px;
+        margin-right: 70px;
+        padding: 20px 10px;
+        border-radius: 40px;
+    }
+}
